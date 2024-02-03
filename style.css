@@ -1,0 +1,117 @@
+body{
+    width : 96vw;
+    height : 96vh;
+    position : absolute;
+}
+
+.navbar{
+    position : fixed;
+    display : flex;
+    height : 10%;
+    width : 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.scaler-logo{
+    width : 10%;
+    height : 60%;
+    margin-left : 64px;
+}
+
+.scaler-social{
+    width : 15%;
+    height : 60%;
+    margin-right :64px;
+}
+
+.main-container{
+    margin-top : 5%;
+    top : 10%;
+    height : 90%;
+    width : 100%;
+    display : flex;
+}
+
+.left-container{
+    height : 100%;
+    width : 60%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    background-color : aliceblue;
+}
+
+.post-container {
+    height : 30%;
+    width : 40%;
+    background-color: white;
+    border-radius : 5px;
+    border : 1px solid gray;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.post-top{
+    border : none;
+    outline : none;
+    resize : none;
+    height : 90%;
+}
+
+.post-bottom{
+    height : 10%;
+    width : 100%;
+    margin-bottom : 5px;
+    display : flex;
+    justify-content: space-between;
+}
+
+.post-button{
+    height : 20px;
+    width : 75px;
+    background-color: blue;
+    color : white;
+    border : none;
+    border-radius : 10px;
+    cursor: pointer;
+
+}
+
+.right-container{
+    width : 40%;
+    display : flex;
+    flex-direction: column;
+}
+
+.thought{
+    background-color: white;
+    border : 1px solid grey;
+    display: flex;
+    /* border-radius :  */
+}
+
+.thought>img{
+    height : 50px;
+    width : 50px;
+}
+
+.names-buttons{
+    display : flex;
+}
+
+.modal{
+    position : fixed;
+    z-index: 1;
+    height : 50wh;
+    width : 50vw;
+    top : 25%;
+    left : 25%;
+    background-color: white;
+    display : none;
+}
+
+
